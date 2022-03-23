@@ -1,6 +1,14 @@
 # Combinational-Sim
 
-This repository contains the source code for a cycle based combinational digital circuit simulator. The program takes both a vector file and a digital circuit in .isc format as inputs. 
+This repository contains the source code for a cycle based combinational digital circuit simulator. 
+
+# Input
+
+The program expects three command line arguments:
+
+- A .isc file describing a combinational circuit
+- A filename for storing the results of the simulation
+- A file containing the test vectors for simulation
 
 # Output
 
