@@ -11,7 +11,7 @@ NODE graph[Mnod];                         //structure used to store the ckt info
 PATTERN vector[Mpt];                      //structure used to store the input vectors information in .vec file 
 
 //FAULT stuck[Mft];                      //structure used to store the faults information in .faults file
-int a,b,c,d;                             //random variables
+int a;                                   //iterator for simulation loop
 
 
 //Read the .isc file and store the information in graph structure
