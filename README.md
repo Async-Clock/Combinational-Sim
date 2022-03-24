@@ -12,7 +12,7 @@ The program expects three command line arguments:
 
 # Output
 
-The program outputs a text file containing simulation results. For debugging purposes, the simulation file contains both the primary inputs applied and the simulated primary outputs. 
+The program outputs a text file containing simulation results. The order of the results correspond to the order of the test vectors applied.
 
 ## Notation
 
@@ -22,4 +22,4 @@ The simulation results written to the file can have three possible values:
   1
   2
   
- Both 0 and 1 represent a logical 0 or 1, while a 2 indicates a don't care (x).
+ Both 0 and 1 represent a logical 0 or 1, while a 2 indicates an unknown value (x).
