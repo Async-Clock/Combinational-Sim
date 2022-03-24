@@ -9,7 +9,7 @@
 int logic(int Type, int *Fin_values, int Nfi)
 {
   int in1, in2, value, i; //in1 and in2 are temporary variables used for XOR and its derivatives
-  LIST *temp;
+  
   int and_truth[3][3] = {
     {0, 0, 0},
     {0, 1, 2},
